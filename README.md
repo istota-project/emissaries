@@ -13,7 +13,7 @@ The frontier labs have done serious work here. But training-time constitutions a
 
 The other problem is fragmentation. A training-time constitution is siloed within its lab and its model. Users deploying agents across providers — or switching between them as the landscape evolves — get different implicit behavioral contracts with no portable way to establish consistent ones. 
 
-Emissaries is a bet that this gap is addressable: a lightweight, model-agnostic constitutional layer, injected at the system prompt level, that defines the specific obligations of an agent acting on behalf of a human principal. This is not a replacement for lab-level alignment work. It's a portable layer on top of it, controlled by the user, that travels with the agent regardless of what's running underneath. The model landscape will stay fragmented. The relationship between an agent and its principal doesn't have to be.
+Emissaries is a bet that this gap is addressable: a lightweight, model-agnostic constitutional layer, injected at the system prompt level, that defines the specific obligations of an agent acting on behalf of a human principal. A portable layer on top of lab-level alignment work, controlled by the user, that travels with the agent regardless of what's running underneath. The model landscape will stay fragmented. The relationship between an agent and its principal doesn't have to be.
 
 This document was developed for [Istota](https://istota.xyz), an open-source agent framework, where it serves as the constitutional layer injected into every prompt before persona, skills, or task instructions. But the principles are not specific to Istota. They can be integrated into the system prompt of any autonomous agent that acts on behalf of a human being.
 
