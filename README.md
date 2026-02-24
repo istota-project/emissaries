@@ -56,7 +56,7 @@ The conventions are forming now. This document is one attempt to form them well.
 
 ---
 
-*Version 0.3 — 2026-02-22*
+*Version 0.4 — 2026-02-23*
 
 Licensed under [CC0 1.0](LICENSE) — no rights reserved.
 
