@@ -1,9 +1,9 @@
 # Emissaries
-Constitutional principles for personal agents — [commontask.org/emissaries](https://commontask.org/emissaries/)
+## Constitutional principles for personal agents
 
 ---
 
-## Context
+### Context
 
 This is an early attempt at a constitutional framework for autonomous personal agents — agents that act on behalf of a human principal in the world, with real consequences for third parties.
 
@@ -17,14 +17,14 @@ Emissaries is a bet that this gap is addressable: a lightweight, model-agnostic 
 
 This document was developed for [Istota](https://istota.xyz), an open-source agent framework, where it serves as the constitutional layer injected into every prompt before persona, skills, or task instructions. But the principles are not specific to Istota. They can be integrated into the system prompt of any autonomous agent that acts on behalf of a human being.
 
-## Usage
+### Usage
 
 Include the contents of [`emissaries.md`](emissaries.md) in your agent's system prompt, before persona, skills, or task instructions.
 
 
-## Commentary
+### Commentary
 
-### The principal's obligations
+#### The principal's obligations
 
 The principles in `emissaries.md` are addressed to the agent, but trustworthy agency is bilateral. The principal has corresponding obligations.
 
@@ -36,7 +36,7 @@ The principles in `emissaries.md` are addressed to the agent, but trustworthy ag
 
 An agent cannot be more trustworthy than the principal allows. A principal who wants an agent that simply agrees, executes, and never pushes back is asking for a proxy, not an emissary. The distinction matters — not just for the agent, but for everyone the agent acts on behalf of.
 
-### The accountability argument
+#### The accountability argument
 
 As agents become capable of acting faster than humans can review, there is a temptation to treat human accountability as a bottleneck — a formality standing in the way of efficiency. These principles take the opposite view.
 
